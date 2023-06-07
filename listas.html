@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creación del sitio web para la actividad 1">
+    <meta name="keywords" content="html5, css3, ">
+    <title>Lista - Sitio Web HTML 5 y CSS 3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="navegacion">
+        <div class="navegacion__contenedor">
+            <a href="index.html" class="navegacion__logo">Logo</a>
+            <nav>
+                <ul class="navegacion__lista">
+                    <li class="navegacion__lista"><a href="index.html">Inicio</a></li>
+                    <li class="navegacion__lista"><a href="multimedia.html">Multimedia</a></li>
+                    <li class="navegacion__lista"><a href="listas.html" class="navegacion__lista--active">Listas</a>
+                    </li>
+                    <li class="navegacion__lista"><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="header__section">
+            <div class="header__section_contenido contenedor">
+                <h1>Listas</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eius ipsum nobis modi, veniam sit
+                    minima molestiae enim ad laudantium? Rem ducimus voluptas velit nesciunt hic voluptatum ipsum
+                    accusamus voluptatem.</p>
+            </div>
+        </section>
+
+        <section class="section__style lista contenedor">
+
+            <div class="lista__grid">
+                <img src="recursos/imagefile.jpg" alt="Imagen" width="300" height="200">
+                <div class="lista__texto">
+
+                    <h2>Información del Listado, Agregando información</h2>
+                    <ul>
+                        <li class="list--element">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" /></svg>
+                                <span>Elemento 1</span>
+                        </li>
+                        <li class="list--element">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" /></svg>
+                                <span>Elemento 2</span>
+                        </li>
+                        <li class="list--element">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" /></svg>
+                                <span>Elemento 3</span>
+                        </li>
+                        <li class="list--element">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" /></svg>
+                                <span>Elemento 4</span>
+                        </li>
+                        <li class="list--element">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" /></svg>
+                                <span>Elemento 5</span>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="tabla contenedor section__style">
+            <h2>Tabla</h2>
+
+            <table>
+                <caption>Comparación HTML4 con HTML5</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Característica</th>
+                        <th scope="col">HTML4</th>
+                        <th scope="col">HTML5</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td data-label="Característica">Semántica</td>
+                        <td data-label="HTML4">Menos semántico y más dependiente de estilos</td>
+                        <td data-label="HTML5">Mayor semántica y significado claro para los elementos</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Característica">Formularios</td>
+                        <td data-label="HTML4">Formularios básicos y dependientes de scripts o plugins</td>
+                        <td data-label="HTML5">Formularios mejorados con validación y tipos de campo específicos</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Característica">Etiquetas multimedia</td>
+                        <td data-label="HTML4">Dependencia de plugins como Flash para contenido multimedia</td>
+                        <td data-label="HTML5">Soporte nativo para etiquetas de audio, video y canvas</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Característica">Compatibilidad</td>
+                        <td data-label="HTML4">Menor compatibilidad con versiones antiguas de navegadores</td>
+                        <td data-label="HTML5">Mejor compatibilidad con navegadores modernos y versiones antiguas</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Característica">APIs</td>
+                        <td data-label="HTML4">APIs limitadas y dependencia de tecnologías externas</td>
+                        <td data-label="HTML5">APIs más ricas y nativas para geolocalización, almacenamiento local, etc.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer class="footer_style">
+        <a href="index.html" class="navegacion__logo">Logo</a>
+        <p> Actividad 1 </p>
+        <div class="footer__redes">
+            <a href="#" class="footer__redes--facebook">Facebook</a>
+            <a href="#" class="footer__redes--twitter">Twitter</a>
+            <a href="#" class="footer__redes--instagram">Instagram</a>
+        </div>
+    </footer>
+</body>
+
+</html>

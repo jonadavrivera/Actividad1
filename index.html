@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creación del sitio web para la actividad 1">
+    <meta name="keywords" content="html5, css3, ">
+    <title>Sitio Web HTML 5 y CSS 3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="navegacion">
+        <div class="navegacion__contenedor">
+            <a href="index.html" class="navegacion__logo">Logo</a>
+            <nav>
+                <ul class="navegacion__lista">
+                    <li class="navegacion__lista"><a href="index.html" class="navegacion__lista--active">Inicio</a></li>
+                    <li class="navegacion__lista"><a href="multimedia.html">Multimedia</a></li>
+                    <li class="navegacion__lista"><a href="listas.html">Listas</a></li>
+                    <li class="navegacion__lista"><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="princical__home">
+            <h1 class="princical__home__title">Actividad 1</h1>
+            <p class="princical__home__text">Creación del sitio web para la actividad 1</p>
+            <a href="" class="princical__home__btn">Enlace</a>
+        </section>
+        <section class="home__informativo contenedor">
+            <h2>Informacion</h2>
+            <div class="home__informativo__contenido">
+                <p>HTML5 es la última versión de HTML. La serie de especificaciones de HTML5 es un trabajo en progreso.
+                    Se espera que HTML5 se convierta en un estándar en 2014.</p>
+                <img src="recursos/imagefile.jpg" width="300" height="200" alt="">
+            </div>
+        </section>
+        <section class="home__imgdestacadas">
+            <h2>Imágenes Destacadas</h2>
+            <div class="home__imgdestacadas__contenido contenedor">
+                <img src="recursos/imagefile.jpg" alt="" width="300" height="200">
+                <img src="recursos/imagefile.jpg" alt="" width="300" height="200">
+                <img src="recursos/imagefile.jpg" alt="" width="300" height="200">
+            </div>
+        </section>
+        <section class="home__video">
+            <h1 class="home__video__title">Actividad 1</h1>
+            <p class="home__video__text">Creación del sitio web para la actividad 1</p>
+            <div class="contenedor home__video__contenedor">
+
+                <video autoplay="autoplay" loop="loop" muted="" playsinline="" src="recursos/audiofile.mp4"
+                    class="home__video__video"></video>
+
+            </div>
+        </section>
+        <section class="blog contenedor">
+            <h2>Blog</h2>
+            <div class="blog__notas">
+                <article>
+                    <header>
+                        <picture>
+                            <source srcset="recursos/imagefile.jpg" media="screen and (min-width: 1024px)">
+                            <source srcset="recursos/imagefile.jpg" media="screen and (min-width: 768px)">
+                            <source srcset="recursos/imagefile.jpg" media="screen and (min-width: 0px)">
+                            <img src="recursos/imagefile.jpg" alt="Imagen del Artículo" width="300" height="200">
+                        </picture>
+                        <time datetime="2023-05-24">07 Junio de 2023</time>
+                        <h3>Título del Artículo</h3>
+                        <p>Autor del Artículo</p>
+                    </header>
+                    <p>Contenido del artículo.</p>
+                    <a class="blog__leer" href="#">Leer más</a>
+                    <footer>
+                        <ul>
+                            <li><a href="#">Etiqueta 1</a></li>
+                            <li><a href="#">Etiqueta 2</a></li>
+                            <li><a href="#">Etiqueta 3</a></li>
+                        </ul>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <picture>
+                            <source srcset="recursos/imagefile.jpg" media="screen and (min-width: 1024px)">
+                            <source srcset="recursos/imagefile.jpg" media="screen and (min-width: 768px)">
+                            <source srcset="recursos/imagefile.jpg" media="screen and (min-width: 0px)">
+                            <img src="recursos/imagefile.jpg" alt="Imagen del Artículo" width="300" height="200">
+                        </picture>
+                        <time datetime="2023-05-24">07 Junio de 2023</time>
+                        <h3>Título del Artículo</h3>
+                        <p>Autor del Artículo</p>
+                    </header>
+                    <p>Contenido del artículo.</p>
+                    <a class="blog__leer" href="#">Leer más</a>
+                    <footer>
+                        <ul>
+                            <li><a href="#">Etiqueta 1</a></li>
+                            <li><a href="#">Etiqueta 2</a></li>
+                            <li><a href="#">Etiqueta 3</a></li>
+                        </ul>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <picture>
+                            <source srcset="recursos/imagefile.jpg" media="screen and (min-width: 1024px)">
+                            <source srcset="recursos/imagefile.jpg" media="screen and (min-width: 768px)">
+                            <source srcset="recursos/imagefile.jpg" media="screen and (min-width: 0px)">
+                            <img src="recursos/imagefile.jpg" alt="Imagen del Artículo" width="300" height="200">
+                        </picture>
+                        <time datetime="2023-05-24">07 Junio de 2023</time>
+                        <h3>Título del Artículo</h3>
+                        <p>Autor del Artículo</p>
+                    </header>
+                    <p>Contenido del artículo.</p>
+                    <a class="blog__leer" href="#">Leer más</a>
+                    <footer>
+                        <ul>
+                            <li><a href="#">Etiqueta 1</a></li>
+                            <li><a href="#">Etiqueta 2</a></li>
+                            <li><a href="#">Etiqueta 3</a></li>
+                        </ul>
+                    </footer>
+                </article>
+            </div>
+        </section>
+        <section class="home__newsletter">
+            <div class="home_newsletter_contenido contenedor">
+                <h3>Newsletter</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eius ipsum nobis modi, veniam sit
+                    minima molestiae enim ad laudantium? Rem ducimus voluptas velit nesciunt hic voluptatum ipsum
+                    accusamus voluptatem.</p>
+                <form action="#" method="post">
+                    <label for="correo"></label>
+                    <input type="email" name="correo" id="correo" placeholder="Correo">
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer_style">
+        <a href="index.html" class="navegacion__logo">Logo</a>
+        <p> Actividad 1 </p>
+        <div class="footer__redes">
+            <a href="#" class="footer__redes--facebook">Facebook</a>
+            <a href="#" class="footer__redes--twitter">Twitter</a>
+            <a href="#" class="footer__redes--instagram">Instagram</a>
+        </div>
+    </footer>
+</body>
+
+</html>

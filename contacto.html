@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creación del sitio web para la actividad 1">
+    <meta name="keywords" content="html5, css3, ">
+    <title>Contacto - Sitio Web HTML 5 y CSS 3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="navegacion">
+        <div class="navegacion__contenedor">
+            <a href="index.html" class="navegacion__logo">Logo</a>
+            <nav>
+                <ul class="navegacion__lista">
+                    <li class="navegacion__lista"><a href="index.html">Inicio</a></li>
+                    <li class="navegacion__lista"><a href="multimedia.html">Multimedia</a></li>
+                    <li class="navegacion__lista"><a href="listas.html">Listas</a></li>
+                    <li class="navegacion__lista"><a href="contacto.html" class="navegacion__lista--active">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="header__section">
+            <div class="header__section_contenido contenedor">
+                <h1>Contacto</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eius ipsum nobis modi, veniam sit
+                    minima molestiae enim ad laudantium? Rem ducimus voluptas velit nesciunt hic voluptatum ipsum
+                    accusamus voluptatem.</p>
+            </div>
+        </section>
+
+        <section class="section__style datos_contacto contenedor">
+            <h2>Datos de contacto</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120432.05613685056!2d-99.22601250674447!3d19.390715043822375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0026db097507%3A0x54061076265ee841!2sCiudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1686163176282!5m2!1ses-419!2smx"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="contacto__info">
+                <h3>Dirección</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+                <h3>Teléfono</h3>
+                <p>55 5555 5555</p>
+
+                <h3>Correo Electrónico</h3>
+                <p>correo@corre.com</p>
+            </div>
+        </section>
+
+
+        <section class="section__style contacto">
+            <h2>Formulario de Contacto</h2>
+            <form action="#">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" name="correo" id="correo" placeholder="Correo" required>
+
+                <label for="telefono">Teléfono</label>
+                <input type="number" name="telefono" id="telefono" placeholder="Teléfono" required>
+
+                <label for="color">Género</label>
+                <select name="select" id="color">
+                    <option value="" hidden>Seleccione una opción</option>
+                    <option value="1">Hombre</option>
+                    <option value="2">Mujer</option>
+                    <option value="3">No especificar</option>
+                </select>
+
+                <label for="fecha_nacimiento">Fecha de Nacimiento</label>
+                <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" min="1900-01-01" max="2023-12-31"
+                    required>
+
+
+                <fieldset>
+                    <legend>Registro Newsletter</legend>
+                    <input type="checkbox" id="registro1" name="registro1" value="Si" required>
+                    <label for="registro1"> Si</label><br>
+                    <input type="checkbox" id="registro2" name="registro2" value="No" required>
+                    <label for="registro2"> No</label><br>
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Tema de Interes</legend>
+                    <input type="radio" id="html" name="fav_language" value="HTML" required>
+                    <label for="html">HTML</label>
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript" required>
+                    <label for="javascript">JavaScript</label>
+                    <input type="radio" id="css" name="fav_language" value="CSS" required>
+                    <label for="css">CSS</label>
+                </fieldset>
+
+
+
+
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <div class="contenedor_enviar">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer_style">
+        <a href="index.html" class="navegacion__logo">Logo</a>
+        <p> Actividad 1 </p>
+        <div class="footer__redes">
+            <a href="#" class="footer__redes--facebook">Facebook</a>
+            <a href="#" class="footer__redes--twitter">Twitter</a>
+            <a href="#" class="footer__redes--instagram">Instagram</a>
+        </div>
+    </footer>
+</body>
+
+</html>
